@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Ultra & display=swap');
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        font-family: 'Ultra', serif;
+    }
+    header,main, nav, footer{
+        font-family: 'Roboto', sans-serif;
+        padding: ;
+    }
+    header, p{
+        font-weight: 800;
+    }
+    nav a{
+        font-weight: 800;
+    }
+    main h2{
+        font-weight: 400;
+    }
+    footer, adress, footer a{
+        font-weight: 400;
+        font-style: normal ;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        background-color:#C69AFF ;
+        color: #FFFFFF;
+        height: 16,6vh;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#FFFFFF ;
+        height: 25vh;
+    }
+    nav a{
+        color: #8D3AF6;
+    }
+    nav a img{
+        width: 100px;
+        height: auto;
+       background-color: black; 
+    }
+    main{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFE816;
+        color: #8D3AF6;
+        height: 49vh;
+
+    }
+    footer{
+        display: flex;
+        justify-content:center ;
+        background-color: #C69AFF;
+        color: #8D3AF6;
+        height: 20vh;
+    }
+    footer a{
+        color: #8D3AF6;
+    }
+    header,main, nav, footer{
+        padding: 0 150px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <p>Visita'ns a l'EASDAlcoi no t'arrepentiràs X.X</p>
+    </header>
+    <nav>
+        <main>
+        <a href="#">index</a>
+        <a href="pages/classe.html">la classe</a>
+        <img src="img/LOGO (3).svg">
+        <a href="pages/horari.htmluo">horari</a>
+    </nav>
+    
+    <main>
+      <h1> Publicitària 2022/2023</h1>
+      <h2>EASDAlcoi</h2>
+      </main>
+      <footer>
+        <address>
+            c/Barranc de Na Lloba, Alcoi - Alacant
+            <a href="ww.easdalcoi.es">easdalcoi.es</a>
+        </address>
+      </footer>
+      <add>
+
+      </add>
+</body>
